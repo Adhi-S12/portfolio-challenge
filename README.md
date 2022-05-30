@@ -1,1 +1,1 @@
-### solution for Portfolio Challenge by DevChallenges.io
+### Solution for Portfolio challenge by DevChallenges.io
