@@ -1,0 +1,15 @@
+.sectionTitle {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4f4f4f;
+}
+
+@media screen and (max-width: 840px) {
+  .sectionTitle {
+    text-align: center;
+  }
+}

@@ -1,0 +1,44 @@
+.hobbyItemContainer {
+  margin-top: 36px;
+}
+
+.hobbyImage {
+  border-radius: 12px;
+}
+
+.hobbyTitle {
+  color: #333;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 26px;
+}
+
+.hobbyDesc {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 10px;
+  color: #828282;
+}
+
+@media screen and (max-width: 840px) {
+
+  .hobbyTitle,
+  .hobbyImage,
+  .hobbyDesc {
+    text-align: center;
+
+  }
+
+  .hobbyImage {
+    display: block;
+    margin: 0 auto;
+  }
+}

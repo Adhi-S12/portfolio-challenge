@@ -1,0 +1,23 @@
+.wrapper {
+  max-width: 960px;
+  margin: 70px auto 24px auto;
+}
+
+.test {
+  background-color: rgb(102, 166, 195);
+}
+
+
+
+@media screen and (min-width: 840px) {
+  .flexSection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gridSection {
+    display: flex;
+    justify-content: space-around;
+  }
+
+}

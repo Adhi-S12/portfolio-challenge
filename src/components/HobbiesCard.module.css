@@ -1,0 +1,23 @@
+.hobbiesContainer {
+  width: 400px;
+}
+
+.hobbiesTitle {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4F4F4F;
+}
+
+@media screen and (max-width: 840px) {
+  .hobbiesContainer {
+    width: 80%;
+  }
+
+  .hobbiesTitle {
+    text-align: center;
+  }
+}

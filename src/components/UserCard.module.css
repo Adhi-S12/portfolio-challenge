@@ -1,0 +1,124 @@
+/* user details container */
+
+.userDetailsContainer {
+  display: flex;
+  width: 100%;
+}
+
+.userimgContainer {
+  width: 260px;
+  height: 266px;
+  border-radius: 12px;
+  width: 40%;
+}
+
+.userImage {
+  height: 100%;
+  width: auto;
+  border-radius: 12px;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-right: 20px;
+  text-align: left;
+  align-items: space-between
+}
+
+.userPrimaryDetails {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.userDetailsName {
+  margin-bottom: 6px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+
+}
+
+.userDetailsRole {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #828282;
+}
+
+.userDetailsContact {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.userDetailsContactItem {
+  margin-bottom: 10px;
+  color: #4F4F4F;
+
+}
+
+.userSecondaryDetails {}
+
+.userDetailsDescription {
+  color: #828282;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 840px) {
+  .userDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+  }
+
+  .userimgContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .userDetails {
+    margin: 0;
+  }
+
+  .userPrimaryDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .userDetailsContact {
+    margin-top: 40px;
+  }
+
+
+  .userSecondaryDetails {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .userDetailsDescription {
+    text-align: center;
+    margin-top: 0;
+  }
+}
