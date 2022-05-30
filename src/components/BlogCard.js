@@ -15,7 +15,7 @@ const BlogCard = ({ className }) => {
 				<p className={styles.blogDescription}>
 					Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.
 				</p>
-				<a href="#" className={styles.blogLink}>
+				<a href="https://github.com/AdhipathiPandiyan-S/portfolio-challenge" className={styles.blogLink}>
 					dev.to
 				</a>
 			</div>
