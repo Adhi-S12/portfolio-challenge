@@ -20,7 +20,7 @@ const BlogCard = ({ className }) => {
 				</a>
 			</div>
 			<div className={styles.rightSide}>
-				<img src="https://place-hold.it/450x350" alt="blog image" className={styles.blogImage} />
+				<img src="https://place-hold.it/450x350" alt="blog" className={styles.blogImage} />
 			</div>
 		</CardWrapper>
 	);
