@@ -12,6 +12,9 @@ const style = {
 	letterSpacing: '0em',
 	textAlign: 'left',
 	marginBottom: '40px',
+	'@media (max-width: 840px)': {
+		textAlign: 'center',
+	},
 };
 
 const TitleCard = ({ title, className }) => {
